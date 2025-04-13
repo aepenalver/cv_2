@@ -5,9 +5,9 @@ body {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("../img/logo_APR.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 900px;
   background-position: left;
 }
 
