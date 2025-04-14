@@ -44,11 +44,21 @@ a:hover,
 }
 
 @media (max-width: 768px) {
+    #Hero-Section {
+        background-size: 600px;
+    }
+
     #Contacto form label {
         font-weight: 400;
     }
 
     .navbar-brand {
         width: 100px;
+    }
+}
+
+@media (max-width: 320px) {
+    #Hero-Section {
+        background-size: 300px;
     }
 }
