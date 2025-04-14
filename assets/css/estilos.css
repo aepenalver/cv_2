@@ -2,6 +2,10 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+nav, footer {
+  background-color: #2b3165;
+}
+
 /* Hero Section */
 
 #Hero-Section {
