@@ -1,43 +1,54 @@
 body {
-  font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
-nav, footer {
-  background-color: #2b3165;
+nav,
+footer {
+    background-color: #2b3165;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover,
+.btn:hover {
+    background-color: #2b3165;
+    color: white;
 }
 
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/logo_APR.png");
-  background-repeat: no-repeat;
-  background-size: 900px;
-  background-position: left;
+    background-image: url("../img/logo_APR.png");
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: left;
 }
 
 /* Mis trabajos */
 
-#Mis-trabajos .image-top {
-  height: 250px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+#Proyectos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* Contacto */
 
 #Contacto form label {
-  font-weight: 700;
-  color: #373a3c;
+    font-weight: 700;
+    color: #373a3c;
 }
 
 @media (max-width: 768px) {
-  #Contacto form label {
-    font-weight: 400;
-  }
+    #Contacto form label {
+        font-weight: 400;
+    }
 
-  .navbar-brand{
-    width: 100px;
-  }
-
+    .navbar-brand {
+        width: 100px;
+    }
 }
